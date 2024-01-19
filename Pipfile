@@ -5,11 +5,11 @@ name = "pypi"
 
 [packages]
 langchain = "*"
-pymongo = "*"
 langchain-community = "*"
 beautifulsoup4 = "*"
 pydantic-settings = "*"
 langchain-openai = "*"
+pymongo = {extras = ["aws"], version = "*"}
 
 [dev-packages]
 isort = "*"

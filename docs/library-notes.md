@@ -1,6 +1,6 @@
 ```shell
 pipenv install langchain
-pipenv install pymongo
+pipenv install pymongo[aws]
 pipenv install langchain-community
 pipenv install beautifulsoup4
 pipenv install pydantic-settings
