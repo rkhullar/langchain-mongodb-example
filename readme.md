@@ -1,5 +1,5 @@
 ## Objective
-Walk through the following tutorial on getting started with semantic search using langchain and mongodb:
+Walk through the following tutorial on getting started with semantic search using LangChain and MongoDB:
 - https://www.mongodb.com/developer/languages/python/semantic-search-made-easy-langchain-mongodb
 - https://github.com/mongodb-developer/atlas-langchain.git
 
