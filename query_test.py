@@ -11,6 +11,6 @@ search_client = SearchClient(
 )
 
 # print(search_client)
-title, content = search_client.query2('how big is mongodb?')
+title, content = search_client.query2('When was MongoDB founded?')
 # print(title)
 print(content)
