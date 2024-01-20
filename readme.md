@@ -45,5 +45,5 @@ The `SearchClient` class within `query.py` can be used to interface with the tra
 query it would be vectorized and matched against the training data to find an answer. And the LLM should further improve
 the response.
 ```shell
-python query_text.py
+python query_test.py
 ```
