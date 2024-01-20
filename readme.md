@@ -44,4 +44,6 @@ MongoDB Atlas and indexed via Atlas Search.
 The `SearchClient` class within `query.py` can be used to interface with the trained AI model. When text is fed into the
 query it would be vectorized and matched against the training data to find an answer. And the LLM should further improve
 the response.
-```python query_text.py```
+```shell
+python query_text.py
+```
