@@ -9,6 +9,7 @@ import warnings
 
 warnings.filterwarnings('ignore', category=UserWarning, module='langchain.chains.llm')
 
+
 @dataclass
 class SearchClient:
     atlas_host: str = field(repr=False)

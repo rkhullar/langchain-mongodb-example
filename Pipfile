@@ -4,15 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain = "*"
-langchain-community = "*"
-beautifulsoup4 = "*"
-pydantic-settings = "*"
-langchain-openai = "*"
-pymongo = {extras = ["aws"], version = "*"}
+langchain = "~=0.1.0"
+langchain-community = "*" # 0.0
+beautifulsoup4 = "~=4.12.0"
+pydantic-settings = "~=2.1.0"
+langchain-openai = "*" # 0.0
+pymongo = {version = "~=4.6.0", extras = ["aws"]}
 
 [dev-packages]
-isort = "*"
+isort = "~=5.13.0"
 
 [requires]
 python_version = "3.11"
