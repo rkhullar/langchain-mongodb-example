@@ -1,5 +1,5 @@
-from query import SearchClient
 from config import Settings
+from query import SearchClient
 
 settings = Settings()
 search_client = SearchClient(

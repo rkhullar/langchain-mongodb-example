@@ -1,9 +1,10 @@
-from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import WebBaseLoader
+from langchain_community.vectorstores import MongoDBAtlasVectorSearch
 from langchain_openai import OpenAIEmbeddings
+
 from config import Settings
 from util.mongo import build_atlas_client
-from langchain_community.vectorstores import MongoDBAtlasVectorSearch
 
 settings = Settings()
 loader = WebBaseLoader('https://en.wikipedia.org/wiki/MongoDB')

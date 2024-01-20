@@ -1,11 +1,12 @@
-from dataclasses import dataclass, field
-from util.mongo import build_atlas_client
-from langchain_community.vectorstores import MongoDBAtlasVectorSearch
-from langchain_openai import OpenAIEmbeddings
-from langchain_openai import OpenAI
-from langchain.retrievers.document_compressors import LLMChainExtractor
-from langchain.retrievers import ContextualCompressionRetriever
 import warnings
+from dataclasses import dataclass, field
+
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import LLMChainExtractor
+from langchain_community.vectorstores import MongoDBAtlasVectorSearch
+from langchain_openai import OpenAI, OpenAIEmbeddings
+
+from util.mongo import build_atlas_client
 
 warnings.filterwarnings('ignore', category=UserWarning, module='langchain.chains.llm')
 
